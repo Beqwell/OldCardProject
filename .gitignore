@@ -2,8 +2,8 @@
 .idea/
 *.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+target/
+build/
 
 ### Eclipse ###
 .apt_generated
@@ -29,6 +29,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Windows ###
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
 
 ### Maven ###
 target/
@@ -60,10 +66,6 @@ logs/
 *.class
 
 ### System-specific files ###
-Thumbs.db
-Icon?
-ehthumbs.db
-.DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
