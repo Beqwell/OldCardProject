@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:element name="OldCardCollection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="OldCard" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="id" type="xs:ID" use="required"/>
+                                <xs:attribute name="Thema" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="cityscape"/>
+                                            <xs:enumeration value="nature"/>
+                                            <xs:enumeration value="people"/>
+                                            <xs:enumeration value="religion"/>
+                                            <xs:enumeration value="sport"/>
+                                            <xs:enumeration value="architecture"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="Type" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="greeting"/>
+                                            <xs:enumeration value="advertisement"/>
+                                            <xs:enumeration value="regular"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="Country" type="xs:string" use="required"/>
+                                <xs:attribute name="Year" type="xs:gYear" use="required"/>
+                                <xs:attribute name="Author" type="xs:string" use="required"/>
+                                <xs:attribute name="Valuable" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="Historical"/>
+                                            <xs:enumeration value="Collectible"/>
+                                            <xs:enumeration value="Thematic"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

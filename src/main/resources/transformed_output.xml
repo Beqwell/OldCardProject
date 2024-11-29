@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><GroupedOldCards>
+    <cityscape>
+        <OldCard id="card1" Thema="cityscape" Type="greeting" Country="Ukraine" Year="1912" Author="Ivan Franko" Valuable="Historical">
+        Greetings from Kyiv!
+    </OldCard>
+        <OldCard id="card5" Thema="cityscape" Type="greeting" Country="Ukraine" Year="1915" Author="Ivan Franko" Valuable="Historical">
+        Kharkiv in the 20th Century
+    </OldCard>
+        <OldCard id="card9" Thema="cityscape" Type="advertisement" Country="USA" Year="1930" Author="John Smith" Valuable="Thematic">
+        Explore New York
+    </OldCard>
+        <OldCard id="card12" Thema="cityscape" Type="greeting" Country="Ukraine" Year="1920" Author="Ivan Franko" Valuable="Historical">
+        Streets of Kyiv
+    </OldCard>
+        <OldCard id="card15" Thema="cityscape" Type="regular" Country="Italy" Year="1920" Author="Unknown" Valuable="Historical">
+        Venice Canals
+    </OldCard>
+        <OldCard id="card17" Thema="cityscape" Type="advertisement" Country="Ukraine" Year="1935" Author="Oleksandr Dovzhenko" Valuable="Historical">
+        Explore Odessa
+    </OldCard>
+        <OldCard id="card24" Thema="cityscape" Type="regular" Country="USA" Year="1940" Author="Unknown" Valuable="Thematic">
+        San Francisco Golden Gate
+    </OldCard>
+        <OldCard id="card28" Thema="cityscape" Type="advertisement" Country="China" Year="1950" Author="Unknown" Valuable="Thematic">
+        Discover Beijing
+    </OldCard>
+    </cityscape>
+    <nature>
+        <OldCard id="card2" Thema="nature" Type="advertisement" Country="Germany" Year="1905" Author="Friedrich Schiller" Valuable="Collectible">
+        Forests of Bavaria
+    </OldCard>
+        <OldCard id="card6" Thema="nature" Type="regular" Country="Germany" Year="1930" Author="Karl Schmidt" Valuable="Collectible">
+        The Alps
+    </OldCard>
+        <OldCard id="card10" Thema="nature" Type="regular" Country="Canada" Year="1945" Author="Emily Carr" Valuable="Collectible">
+        Canadian Rockies
+    </OldCard>
+        <OldCard id="card13" Thema="nature" Type="regular" Country="Sweden" Year="1950" Author="Unknown" Valuable="Thematic">
+        Scandinavian Forests
+    </OldCard>
+        <OldCard id="card19" Thema="nature" Type="advertisement" Country="Brazil" Year="1940" Author="Unknown" Valuable="Thematic">
+        Amazon Rainforest
+    </OldCard>
+        <OldCard id="card23" Thema="nature" Type="regular" Country="Norway" Year="1950" Author="Unknown" Valuable="Thematic">
+        Norwegian Fjords
+    </OldCard>
+        <OldCard id="card29" Thema="nature" Type="regular" Country="Australia" Year="1940" Author="Unknown" Valuable="Thematic">
+        Great Barrier Reef
+    </OldCard>
+    </nature>
+    <people>
+        <OldCard id="card3" Thema="people" Type="regular" Country="Ukraine" Year="1920" Author="Taras Shevchenko" Valuable="Thematic">
+        A Journey to Lviv
+    </OldCard>
+    </people>
+    <architecture>
+        <OldCard id="card4" Thema="architecture" Type="regular" Country="France" Year="1905" Author="Henri Matisse" Valuable="Historical">
+        Notre Dame Cathedral
+    </OldCard>
+        <OldCard id="card11" Thema="architecture" Type="greeting" Country="Spain" Year="1885" Author="Antoni Gaudi" Valuable="Historical">
+        La Sagrada Familia
+    </OldCard>
+        <OldCard id="card18" Thema="architecture" Type="regular" Country="Germany" Year="1890" Author="Unknown" Valuable="Historical">
+        Brandenburg Gate
+    </OldCard>
+        <OldCard id="card21" Thema="architecture" Type="greeting" Country="Turkey" Year="1925" Author="Unknown" Valuable="Historical">
+        Hagia Sophia
+    </OldCard>
+        <OldCard id="card25" Thema="architecture" Type="greeting" Country="Japan" Year="1930" Author="Unknown" Valuable="Historical">
+        Tokyo Imperial Palace
+    </OldCard>
+    </architecture>
+    <religion>
+        <OldCard id="card7" Thema="religion" Type="greeting" Country="Italy" Year="1890" Author="Leonardo da Vinci" Valuable="Historical">
+        Blessings from Rome
+    </OldCard>
+        <OldCard id="card14" Thema="religion" Type="advertisement" Country="Vatican" Year="1955" Author="Unknown" Valuable="Thematic">
+        Visit the Vatican
+    </OldCard>
+        <OldCard id="card20" Thema="religion" Type="greeting" Country="India" Year="1930" Author="Unknown" Valuable="Thematic">
+        Blessings from Varanasi
+    </OldCard>
+        <OldCard id="card26" Thema="religion" Type="regular" Country="Russia" Year="1900" Author="Unknown" Valuable="Historical">
+        Saint Basil's Cathedral
+    </OldCard>
+    </religion>
+    <sport>
+        <OldCard id="card8" Thema="sport" Type="advertisement" Country="England" Year="1950" Author="Unknown" Valuable="Thematic">
+        Olympic Games Promotion
+    </OldCard>
+        <OldCard id="card16" Thema="sport" Type="greeting" Country="USA" Year="1960" Author="Unknown" Valuable="Thematic">
+        Baseball League Celebration
+    </OldCard>
+        <OldCard id="card22" Thema="sport" Type="advertisement" Country="Australia" Year="1965" Author="Unknown" Valuable="Thematic">
+        Cricket Tournament
+    </OldCard>
+        <OldCard id="card27" Thema="sport" Type="greeting" Country="Greece" Year="1896" Author="Unknown" Valuable="Historical">
+        First Modern Olympics
+    </OldCard>
+    </sport>
+</GroupedOldCards>
